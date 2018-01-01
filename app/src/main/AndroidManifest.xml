@@ -18,6 +18,9 @@
         </activity>
         <activity android:name=".DataPicker_TimePicker"></activity>
         <activity android:name=".GridViewActivity"></activity>
+        <activity android:name=".Spinner"></activity>
+        <activity android:name=".ListViewActivity"></activity>
+        <activity android:name=".ProgressBar"></activity>
     </application>
 
 </manifest>
