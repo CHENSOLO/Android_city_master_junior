@@ -45,6 +45,25 @@
         android:layout_height="wrap_content"
         android:text="ProgressBar样式"
         />
+    <Button
+        android:id="@+id/btn_wenview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WebView样式"
+        />
+
+    <Button
+        android:id="@+id/btn_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment加载"
+        />
+    <Button
+        android:id="@+id/btn_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ViewPager样式"
+        />
 
 
 </LinearLayout>
