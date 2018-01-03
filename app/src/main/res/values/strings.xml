@@ -9,4 +9,10 @@
     <string name="third">传值通信</string>
     <string name="four">生命周期</string>
     <string name="button">切换Fragment</string>
+    <string name="content">作者：robbin
+链接：https://www.zhihu.com/question/19931404/answer/14830571
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+Github不是突然火起来的，在Ruby社区Github其实从一开始就很流行，我们2009年搞Ruby大会就邀请了Github的人来上海了，早在2009年Github在国内的Ruby社区就很有名气了。之所以今天大家突然觉得Github火，只不过是因为刚拿到1亿美元融资的眼球效应罢了。Github是一个从Ruby社区诞生出来的项目，这几年我也算是看着Github发展起来的，可以说Git在Ruby社区普及和爆发几乎是必然的事情。Git虽然是Linux内核社区开发出来的，但前几年一直不温不火。真正在开源社区普及和爆发，是从Ruby社区和Github开始的。Rails是一个高度集成的Web框架，通常情况下一到两个Rails程序员做一个Web项目就够了，一旦多人同时在一个Rails项目上工作，代码提交和协作会遇到很大的麻烦，更不要说开源项目大规模远程协作了。这算是Rails项目的一个痛点：单个工程师开发效率很高，但是团队协作很困难，CVS/SVN这种集中提交式的SCM都不能很好的支持Rails团队的工作模式。事实上我的Ruby团队规模一大也遇到了这个难题，代码提交经常冲突，协作困难。Git这种良好支持分支管理的分布式的SCM真正解决了这个问题：每个工程师在自己本地分支上开发，完成功能以后往master分支合并。我们Ruby团队使用Git以后，代码提交冲突问题迎刃而解。所以Git这种SCM像是给Ruby社区量身打造的一样，所以你可以看到Ruby社区几乎没有不用Git的。Github本身也是这种需求下的产物，一些湾区的Ruby社区的程序员使用Git以后，找不到好的Git托管网站，于是就开发了Github出来。然后Rails框架率先迁移到Github上，形成了示范效应，整个Ruby社区呼啦啦都迁上去了。Ruby社区另有一好处：各种开源库和包都统一用Gem格式发布，而一旦大量Gem都迁移到Github上了，Ruby程序员就跟着都开始用Github了。我当年就是为了跟一些gem的库就开始用Gihub的。这里多说两句：Ruby社区是一个相当团结的社区，很少分裂，经常是一旦采用一个技术，整个社区就会迅速跟进和普及。虽然在国内Ruby是个小众的编程语言，但是在硅谷，Ruby很火，被誉为云计算时代的Web编程语言。Ruby整个社区都迁移到Github，开始对其他编程语言社区形成示范效应，其他编程语言社区接着跟进。Ruby程序员因为做Web开发，经常用JavaScript，很多Ruby社区核心人员本身也是JS社区的核心人员，JS社区也就很快进驻Github。同时Ruby社区因为DHH的示范效应，基本上整个社区都是人手一台Mac，天然对OSX比较近，而随着iOS开发的繁荣，大量的Ruby程序员跟进开发iOS app，带动iOS社区也从Github上成长起来了。看看今天的Github，Ruby，JS和iOS的项目比例是非常高的，Java比例则远不如Sourceforge和Google Code，这有一定的社区渊源。Github也很重视社区活动，经常搞Drinkup，此外Github产品上有很多领先的地方，例如从网站产品上定位为social coding，支持大规模开源项目分布式协作的各种工作模式等等。不过Github现在估值这么高，我认为主要还是云计算SAAS平台的概念带来的，它给企业用户提供Private代码仓库托管收费服务是盈利的。云平台现在估值都很高，Dropbox，Evernote都远比Github估值高，所以Github现在的估值高也不算意外。</string>
 </resources>

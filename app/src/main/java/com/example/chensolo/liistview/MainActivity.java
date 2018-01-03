@@ -6,13 +6,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.ScrollView.ScrollViewActivity;
+import com.example.ViewFlipper.ViewFlipperActivity;
 import com.example.ViewPager.ViewPagerActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button btn_date_time, btn_gridview,
             btn_spinner,btn_listview,btn_progressbar,btn_wenview,
-            btn_fragment,btn_viewpager;
+            btn_fragment,btn_viewpager,btn_viewflipper,btn_scrollview;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +28,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_wenview = findViewById(R.id.btn_wenview);
         btn_fragment = findViewById(R.id.btn_fragment);
         btn_viewpager = findViewById(R.id.btn_viewpager);
+        btn_viewflipper = findViewById(R.id.btn_viewflipper);
+        btn_scrollview = findViewById(R.id.btn_scrollview);
 
+        btn_scrollview.setOnClickListener(this);
+        btn_viewflipper.setOnClickListener(this);
         btn_viewpager .setOnClickListener(this);
         btn_fragment .setOnClickListener(this);
         btn_progressbar.setOnClickListener(this);
@@ -66,7 +72,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_viewpager:
                 startActivity(new Intent(getApplicationContext(),ViewPagerActivity.class ));
                 break;
-
+            case R.id.btn_viewflipper:
+                startActivity(new Intent(getApplicationContext(),ViewFlipperActivity.class ));
+                break;
+            case R.id.btn_scrollview:
+                startActivity(new Intent(getApplicationContext(),ScrollViewActivity.class ));
+                break;
         }
     }
 }

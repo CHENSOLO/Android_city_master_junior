@@ -64,6 +64,17 @@
         android:layout_height="wrap_content"
         android:text="ViewPager样式"
         />
+    <Button
+        android:id="@+id/btn_viewflipper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ViewFlipper样式"
+        />
 
-
+    <Button
+        android:id="@+id/btn_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ScrollView样式"
+        />
 </LinearLayout>

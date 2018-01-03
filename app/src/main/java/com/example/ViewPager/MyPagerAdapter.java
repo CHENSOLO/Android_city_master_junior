@@ -13,9 +13,11 @@ import java.util.List;
 public class MyPagerAdapter extends PagerAdapter {
 
     private List<View>viewList;
+    private List<String>titleList;
 
-    public MyPagerAdapter(List<View> viewList) {
+    public MyPagerAdapter(List<View> viewList,List<String >titleList) {
         this.viewList = viewList;
+        this.titleList = titleList;
     }
 
     /**
@@ -62,4 +64,14 @@ public class MyPagerAdapter extends PagerAdapter {
         //移除当前的位置
         container.removeView(viewList.get(position));
     }
+
+    /**
+     * 设置ViewPager页卡的标题
+     * @param position
+     * @return
+     */
+    @Override
+    public CharSequence getPageTitle(int position) {
+        return titleList.get(position);
+}
 }
