@@ -31,6 +31,9 @@
     <activity android:name="com.example.ViewPager.ViewPagerActivity"></activity>
         <activity android:name="com.example.ViewFlipper.ViewFlipperActivity"></activity>
         <activity android:name="com.example.ScrollView.ScrollViewActivity"></activity>
+        <activity android:name="com.example.Gallery.GalleryActivity"></activity>
+        <activity android:name="com.example.Seekbar.SeekBarActivity"></activity>
+        <activity android:name="com.example.Include_merge_ViewStu.IncludeActivity"></activity>
      </application>
 
 </manifest>

@@ -72,9 +72,29 @@
         />
 
     <Button
-        android:id="@+id/btn_scrollview"
+    android:id="@+id/btn_scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="ScrollView样式"
+    />
+    <Button
+        android:id="@+id/btn_gallery"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ScrollView样式"
+        android:text="Gallery图片浏览器"
         />
+    <Button
+        android:id="@+id/btn_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SeekBar可拖动进度条"
+        />
+
+    <Button
+        android:id="@+id/btn_i_m_v"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Include_merge_Viewstub布局优化"
+        />
+
 </LinearLayout>
